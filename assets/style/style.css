@@ -44,6 +44,12 @@ body {
   font-size: 10px;
 }
 
-/*# sourceMappingURL=style.sass.map */
-
+@media screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 180px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
